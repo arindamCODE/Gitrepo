@@ -1,0 +1,168 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:    Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   h3, .h3 {
+    text-align: center;
+    font-size: 24px;
+}
+   .navbar-brand{
+    display: block;
+    max-width: 200px;
+    padding: 15px 15px;
+    margin-right: auto;
+    margin-left: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #777;
+    text-align: center;
+}
+ 
+ h3, .h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+
+a {
+    color: #ece7e7;
+    text-decoration: none;
+}
+
+#features{
+   text-align: center;
+}
+#feature img{
+   margin: 0 0 16px;
+}
+footer{
+   background: #333;
+   color: #eee;
+   font-size: 11px;
+   padding: 20px;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   body{
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+      background-color:rgba(58, 54, 54, 0.9);
+   }
+.well .page-header{
+   margin-top:0px;
+}
+.well .page-header h1{
+   margin-top:10px;
+}
+.modal-title{
+   text-align: center;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.col-sm-6{
+   color: white;
+}
+   #SearchInput{
+      margin-top:-134px;
+      width: 200px;     
+
+   }
+   #SearchInput1{
+      margin-top:-140px;
+      }
+
+   #pullBellow{
+
+      margin:-100px;
+      color: white;
+
+   }
+   #navColor{
+      margin-top:80px; 
+      background-color:#1197bf;
+      padding:30px;
+
+   }
+   .navbar-brand img{
+   width:150%;
+   }
+.dropdown-toggle{
+   color: white;
+   font-size: 20px;
+   margin: 20px;
+}
+.dropdown{
+   list-style: none;
+   }
+ .panel-title {
+    text-align: center;
+         }   
+
+    #feature img {
+    margin-left: 20px;
+}  
+.btn-default {
+    color: #f90400;
+    background-color: #0d7ee0;
+    border-color: #4cfdfd;
+}   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel .item{ height: 400px; 
+                  }
+#myCarousel{
+   margin-top: 40px;
+   background-color: #1c8894;
+}     
+#slide1 {
+        background: url('../../images/lar1.jpg') top center no-repeat;
+}
+#slide2 {
+        background: url('../../images/lar2.jpg') top center no-repeat;
+}
+#slide3 {
+        background: url('../../images/lar3.jpg') top center no-repeat;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.page-header,.lead{
+   text-align: center;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+
+/* Landscape phone to portrait tablet */
+@media only screen and (min-width: 400x) {
+   /* #showcase{background: url('../../images/med1.png')} */                          }
+}
+     
+/* Large desktop */
+@media only screen and (max-width: 900px) {
+
+/*#showcase{background: url('../../images/logo2.png')*/
+}
+                           }   
+}
